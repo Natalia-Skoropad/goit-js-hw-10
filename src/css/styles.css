@@ -16,3 +16,9 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+/* Timer style */
+@import url('./1-timer.css');
+
+/* Snackbar style */
+@import url('./2-snackbar.css');

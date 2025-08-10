@@ -1,0 +1,95 @@
+.controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 32px;
+  align-items: stretch;
+  justify-content: center;
+}
+
+#datetime-picker {
+  padding: 8px 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+
+  border: 1px solid #808080;
+  border-radius: 8px;
+  min-width: 272px;
+}
+
+#datetime-picker:hover {
+  border: 1px solid #000;
+}
+
+#datetime-picker:active,
+#datetime-picker:focus {
+  border: 1px solid #4e75ff;
+  outline: none;
+}
+
+#datetime-picker:disabled {
+  border: 1px solid #808080;
+  background: #fafafa;
+}
+
+button[data-start] {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  padding: 8px 16px;
+  background: #4e75ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+  min-width: 75px;
+  height: 40px;
+}
+
+button[data-start]:hover,
+button[data-start]:focus {
+  background: #6c8cff;
+}
+
+button[data-start]:disabled {
+  background: #cfcfcf;
+  color: #989898;
+}
+
+.timer {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  justify-content: center;
+}
+
+.field {
+  text-align: center;
+}
+
+.value {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+
+  display: block;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+
+  text-transform: uppercase;
+}
+
+.iziToast-wrapper {
+  top: 50px !important;
+  right: 20px !important;
+  left: auto !important;
+}
