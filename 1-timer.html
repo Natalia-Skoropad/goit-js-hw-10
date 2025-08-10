@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/goit-js-hw-10/favicon.svg" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Homework 10</title>
+  <title>Timer</title>
   <script type="module" crossorigin src="/goit-js-hw-10/assets/styles-BYQ35pCy.js"></script>
   <script type="module" crossorigin src="/goit-js-hw-10/assets/vendor-2KFunkcg.js"></script>
   <script type="module" crossorigin src="/goit-js-hw-10/assets/1-timer-ChGnoPva.js"></script>
@@ -24,7 +24,7 @@
       </a>
       <ul class="nav-list">
         <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="../1-timer.html">Timer</a>
+          <a class="nav-link active" href="../1-timer.html">Timer</a>
         </li>
         <li class="nav-item">
           <a class="nav-link {=$highlight-curr}" href="../2-snackbar.html">Snackbar</a>
@@ -35,15 +35,38 @@
 </header>
 
   <main>
-    <section class="vite-promo">
-  <div class="container">
-    <h1 class="main-title">
-      <span class="main-title-gradient">Hello teacher!</span>
-    </h1>
-  </div>
-</section>
-  </main>
+    <div class="container">
+      <h1 class="main-title">
+        <span class="main-title-gradient">Welcome</span> to Timer
+      </h1>
 
+      <div class="controls">
+        <input type="text" id="datetime-picker" />
+        <button type="button" data-start>Start</button>
+      </div>
+
+      <div class="timer">
+        <div class="field">
+          <span class="value" data-days>00</span>
+          <span class="label">Days</span>
+        </div>
+        <div class="field">
+          <span class="value" data-hours>00</span>
+          <span class="label">Hours</span>
+        </div>
+        <div class="field">
+          <span class="value" data-minutes>00</span>
+          <span class="label">Minutes</span>
+        </div>
+        <div class="field">
+          <span class="value" data-seconds>00</span>
+          <span class="label">Seconds</span>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
 </body>
 
 </html>
